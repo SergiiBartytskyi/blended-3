@@ -1,0 +1,17 @@
+.link {
+  /* color: var(--color-white); */
+  color: black;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  /* border: 1px solid var(--color-light); */
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 12px 18px;
+  transition: background-color var(--animation-cubicBezie);
+}
+
+.link:hover,
+.link:focus {
+  background-color: var(--color-imageBackground);
+}
